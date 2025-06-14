@@ -22,9 +22,6 @@
     "netease_api:run": "npx NeteaseCloudMusicApi"
   },
   "main": "background.js",
-  "engines": {
-    "node": "14 || 16"
-  },
   "dependencies": {
     "@unblockneteasemusic/rust-napi": "^0.4.0",
     "NeteaseCloudMusicApi": "^4.23.3",
