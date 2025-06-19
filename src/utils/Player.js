@@ -309,7 +309,7 @@ export default class {
     );
     const trackDuration = ~~(track.dt / 1000);
     time = completed ? trackDuration : ~~time;
-    scrobble({
+    #scrobble({
       id: track.id,
       sourceid: this.playlistSource.id,
       time,
