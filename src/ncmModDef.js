@@ -185,11 +185,6 @@ module.exports = [
     module: require('NeteaseCloudMusicApi/module/search'),
   },
   {
-    identifier: 'scrobble',
-    route: '/scrobble',
-    module: require('NeteaseCloudMusicApi/module/scrobble'),
-  },
-  {
     identifier: 'recommend_songs',
     route: '/recommend/songs',
     module: require('NeteaseCloudMusicApi/module/recommend_songs'),
@@ -428,11 +423,6 @@ module.exports = [
     identifier: 'fm_trash',
     route: '/fm_trash',
     module: require('NeteaseCloudMusicApi/module/fm_trash'),
-  },
-  {
-    identifier: 'daily_signin',
-    route: '/daily_signin',
-    module: require('NeteaseCloudMusicApi/module/daily_signin'),
   },
   {
     identifier: 'cloudsearch',
